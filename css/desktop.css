@@ -1,0 +1,53 @@
+header img{
+    width: 400px;
+    height: 78px;
+    margin-top: 10px;
+}
+
+.main-email-container .background-img{
+    height: 40vh;
+    background-position: top;
+}
+
+.main-email-container h2{
+    font-size: 2.8rem;
+}
+
+.main-email-container p{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+.list-email-container .list-email-item p{
+    font-size: 1.8rem;
+}
+
+.redwards--card-title{
+    font-size: 1.8rem;
+}
+
+.main-email-end p{
+    font-size: 1.8rem;
+}
+
+
+.redwards-cards--container{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.redwards-detail--card{
+    width: 90%;
+    min-width: 100px;
+    max-width: 170px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+

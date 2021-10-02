@@ -1,0 +1,245 @@
+:root{
+    /*Colores*/
+    --azul-aprende-institute-: #101457;
+    --grey-soft: #e9e9e9;
+    --cta-red-color: #d80a30;
+    --warm-black: #201E1C;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+/* Se especifica un min-with para cubrir el requerimiento responsive para telefonos celulare con ese tamaño de pantalla */
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 100px;  
+    background-color: var(--just-white);
+    box-shadow: -1px 2px 0px 3px rgba(207,207,207,1);
+    -webkit-box-shadow: -1px 2px 0px 3px rgba(207,207,207,1);
+    -moz-box-shadow: -1px 2px 0px 3px rgba(207,207,207,1);
+}
+
+header img{
+    width: 290px;
+    height: 51px;
+    margin-top: 40px;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--just-white);
+}
+
+.main-email-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.main-email-container .background-img{
+    width: 100%;
+    height: 30vh;
+    background-image: url("../assets/img/New-Referral-Rewards-One-Off-Email.jpg");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.main-email-container h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--azul-aprende-institute-); 
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--cta-red-color);
+    text-underline-offset: 15px;
+}
+
+.main-email-container p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 2rem;
+    text-align: justify;
+    color: var(--warm-black);
+}
+
+.main-email-container a{
+    text-decoration: none;
+    color: var(--cta-red-color);
+    font-weight: bold;
+}
+
+.main-email-container strong{
+    color: var(--azul-aprende-institute-);
+    font-weight: bold;
+}
+
+.list-email-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list-email-container .list-email-item{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.list-email-container .list-email-item p{
+    width: 80%;
+    margin-left: 10px;
+    font-size: 1.6rem;
+}
+
+.list-email-container .list-email-item strong{
+    color: var(--azul-aprende-institute-);
+}
+
+.list-email-item .list-icon{
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.list-email-item .number--one{
+    background-image: url("../assets/icons/uno_icon.png");
+}
+
+.list-email-item .number--two{
+    background-image: url("../assets/icons/dos_icon.png");
+}
+
+.list-email-item .number--three{
+    background-image: url("../assets/icons/tres_icon.png");
+}
+
+.list-email-item .number--four{
+    background-image: url("../assets/icons/cuatro_icon.png");
+}
+
+.main-redwards-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 5px 0px;
+}
+
+.redwards-detail--card{
+    width: 90%;
+    min-width: 150px;
+    max-width: 300px;
+    min-height: 30px;
+    margin: 5px auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.redwards-detail--card .redwards--icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.redwards--card-title{
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 1.8rem;
+    color: var(--azul-aprende-institute-);
+}
+
+.redwards-detail--card .diplomado{
+    background-image: url("../assets/icons/Diplomado_Adicional.png");
+}
+
+.redwards-detail--card .extension{
+    background-image: url("../assets/icons/Extension_3_Meses.png");
+}
+
+.redwards-detail--card .efectivo{
+    background-image: url("../assets/icons/USD_Efectivo.png");
+}
+
+.main-email-end {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.main-email-end p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 1.6rem;
+    text-align: justify;
+    color: var(--warm-black);
+}
+
+
+footer{
+    flex-grow: 0;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-container--socials{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azul-aprende-institute-);
+}
+.footer-container--socials .icon{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    background: 50% 50% no-repeat;
+    transition: .2s;
+}
+.footer-container--socials .icon_facebook{
+    background-image: url("../assets/icons/ico_social_facebook.svg");
+}
+
+.footer-container--socials .icon_instagram{
+    background-image: url("../assets/icons/ico_social_instagram.svg");
+}
+
+.footer-container--socials .icon_linkedin{
+    background-image: url("../assets/icons/ico_social_linkedin.svg");
+}
+
+.footer-container--socials .icon_tiktok{
+    background-image: url("../assets/icons/ico_social_tiktok.svg");
+}
